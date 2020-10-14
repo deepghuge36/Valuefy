@@ -378,7 +378,7 @@ li {
   position: absolute;
   height: 3px;
   background: blue;
-  width: 32px;
+  width: 30px;
   right: 100%;
   top: calc(50% - 2px);
 }
