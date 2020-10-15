@@ -408,25 +408,48 @@ li {
   right: 12px;
 }
 
-@media (max-width: 1024px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .hamburger-logo {
-    margin: 23px;
-    height: 26px;
-    width: 25px;
+    margin: 22px;
+    height: 24px;
+    width: 23px;
   }
   .logo {
+    height: 65px;
+    width: 161px;
     margin-bottom: 0px;
   }
-  .primary-section .client .background-shade {
-    font-size: 15px;
+  .wrapper {
+    display: block;
   }
-  .primary-section li h3,
-  .primary-section li h4 {
-    font-size: 13px;
+  .primary-section,
+  .secondary-section {
+    width: 100%;
+    margin: 0;
   }
-  .dot-circle {
-    -ms-flex-preferred-size: 43%;
-        flex-basis: 43%;
+  .primary-section {
+    margin-bottom: 20px;
+  }
+  .primary-section li {
+    padding: 12px;
+  }
+  .news-text h4 {
+    line-height: 1.2;
+  }
+  .outer-circle-middle:not(:first-child)::before {
+    width: 23px;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=style.css.map */
