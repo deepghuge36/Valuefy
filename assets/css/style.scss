@@ -457,6 +457,10 @@ li {
     margin-bottom: 0px;
   }
 
+  .main-heading {
+    font-size: 21px;
+  }
+
   .wrapper {
     // flex-direction: column;
     display: block;
@@ -487,9 +491,48 @@ li {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  // body {
-  //   background-color: black;
-  // }
+  .hamburger-logo {
+    margin: 22px;
+    height: 24px;
+    width: 23px;
+  }
+
+  .logo {
+    height: 65px;
+    width: 161px;
+    margin-bottom: 0px;
+  }
+
+  .main-heading {
+    font-size: 21px;
+  }
+
+  .wrapper {
+    display: block;
+  }
+
+  .primary-section,
+  .secondary-section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .primary-section {
+    margin-bottom: 20px;
+  }
+
+  .primary-section li {
+    padding: 12px;
+  }
+
+  .news-text h4 {
+    line-height: 1.2;
+  }
+
+  .outer-circle-middle:not(:first-child)::before {
+    width: 23px;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
