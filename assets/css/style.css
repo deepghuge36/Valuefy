@@ -366,10 +366,6 @@ li {
   height: 20px;
   width: 20px;
   position: relative;
-  /*
-    Child elements with absolute positioning will be
-    positioned relative to this div
-   */
 }
 
 .outer-circle-middle:not(:first-child)::before {
@@ -408,8 +404,7 @@ li {
   right: 12px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
   .hamburger-logo {
     margin: 22px;
     height: 24px;
@@ -445,74 +440,8 @@ li {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .hamburger-logo {
-    margin: 22px;
-    height: 24px;
-    width: 23px;
-  }
-  .logo {
-    height: 65px;
-    width: 161px;
-    margin-bottom: 0px;
-  }
-  .main-heading {
-    font-size: 21px;
-  }
-  .primary-section,
-  .secondary-section {
-    width: 100%;
-    margin: 0;
-  }
-  .primary-section {
-    margin-bottom: 20px;
-  }
-  .primary-section li {
-    padding: 12px;
-  }
-  .news-text h4 {
-    line-height: 1.2;
-  }
-  .outer-circle-middle:not(:first-child)::before {
-    width: 23px;
-  }
-}
-
+/* Extra small devices (phones, 600px and down) */
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .hamburger-logo {
-    margin: 22px;
-    height: 24px;
-    width: 23px;
-  }
-  .logo {
-    height: 65px;
-    width: 161px;
-    margin-bottom: 0px;
-  }
-  .main-heading {
-    font-size: 21px;
-  }
-  .primary-section,
-  .secondary-section {
-    width: 100%;
-    margin: 0;
-  }
-  .primary-section {
-    margin-bottom: 20px;
-  }
-  .primary-section li {
-    padding: 12px;
-  }
-  .news-text h4 {
-    line-height: 1.2;
-  }
-  .outer-circle-middle:not(:first-child)::before {
-    width: 23px;
-  }
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=style.css.map */
