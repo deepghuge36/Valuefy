@@ -871,7 +871,7 @@ li {
 
   .primary-section li h3,
   .primary-section li h4 {
-    font-size: 11px;
+    font-size: 8px;
   }
 
   .primary-section li {
@@ -879,7 +879,11 @@ li {
   }
 
   .secondary-section .calender h3 {
-    font-size: 16px;
+    font-size: 13px;
+  }
+
+  .secondary-section .calender h4 {
+    font-size: 13px;
   }
 
   .news-section-part figure {
@@ -889,10 +893,21 @@ li {
 
   .secondary-section .bse-detail h3 {
     margin-right: 50px;
+    font-size: 13px;
   }
 
   .secondary-section .nifty-50 h3 {
     margin-right: 50px;
+    font-size: 13px;
+  }
+
+  .secondary-section .bse-detail h4 {
+    font-size: 20px;
+  }
+
+  .secondary-section .nifty-50 h4 {
+
+    font-size: 20px;
   }
 
   .news-text h3 {
@@ -928,6 +943,7 @@ li {
   .outer-circle:not(:first-child)::before {
     height: 2px;
     top: calc(50% - 1px);
+    width: 12px;
   }
 
   .outer-circle::after {
@@ -966,6 +982,19 @@ li {
   }
 
   .outer-circle-middle:not(:first-child)::before {
-    width: 20px;
+    width: 14px;
+  }
+
+  .circle-first {
+    right: 14px;
+  }
+
+  .circle-fourth {
+
+    right: 7px;
+  }
+
+  .circle-sixth {
+    right: 9px;
   }
 }
