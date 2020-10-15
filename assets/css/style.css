@@ -492,6 +492,9 @@ li {
   .secondary-section .nifty-50 h3 {
     margin-right: 75px;
   }
+  .bse-detail {
+    margin-left: 30px;
+  }
   .news-text h3 {
     font-size: 12px;
   }
@@ -624,6 +627,9 @@ li {
   }
   .secondary-section .nifty-50 h4 {
     font-size: 20px;
+  }
+  .bse-detail {
+    margin-left: 15px;
   }
   .news-text h3 {
     font-size: 12px;
