@@ -460,9 +460,6 @@ li {
   .main-heading {
     font-size: 21px;
   }
-  .wrapper {
-    display: block;
-  }
   .primary-section,
   .secondary-section {
     width: 100%;
@@ -496,9 +493,6 @@ li {
   }
   .main-heading {
     font-size: 21px;
-  }
-  .wrapper {
-    display: block;
   }
   .primary-section,
   .secondary-section {
